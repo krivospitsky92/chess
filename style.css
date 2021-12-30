@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+div {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border: 3px solid gray;
+  color: blueviolet;
+}
+
+.main-container {
+  display: inline-block;
+
+  width: 100%;
+  height: 100%;
+   
+  margin: 0;
+  padding: 20px;
+  border: 10px solid rgb(92, 92, 92);
+
+  max-width: 1700px;
+  max-height: 1700px;
+ 
+}
+
+.container div:nth-child(2n) {
+  background-image: url(./chess-deck-white.jpg);
+}
+.container div:nth-child(2n+1) {
+  background-image: url(./chess-deck-black.jpg);
+}
+
+.container-2 div:nth-child(2n+1) {
+  background-image: url(./chess-deck-white.jpg);
+}
+.container-2 div:nth-child(2n) {
+  background-image: url(./chess-deck-black.jpg);
+}
+
+.container-3 div:nth-child(2n) {
+  background-image: url(./chess-deck-white.jpg);
+}
+.container-3 div:nth-child(2n+1) {
+  background-image: url(./chess-deck-black.jpg);
+}
+
+.container-4 div:nth-child(2n+1) {
+  background-image: url(./chess-deck-white.jpg);
+}
+.container-4 div:nth-child(2n) {
+  background-image: url(./chess-deck-black.jpg);
+}
+
+.container-5 div:nth-child(2n) {
+  background-image: url(./chess-deck-white.jpg);
+}
+.container-5 div:nth-child(2n+1) {
+  background-image: url(./chess-deck-black.jpg);
+}
+
+.container-6 div:nth-child(2n+1) {
+  background-image: url(./chess-deck-white.jpg);
+}
+.container-6 div:nth-child(2n) {
+  background-image: url(./chess-deck-black.jpg);
+}
+
+.container-7 div:nth-child(2n) {
+  background-image: url(./chess-deck-white.jpg);
+}
+.container-7 div:nth-child(2n+1) {
+  background-image: url(./chess-deck-black.jpg);
+}
+
+.container-8 div:nth-child(2n+1) {
+  background-image: url(./chess-deck-white.jpg);
+}
+.container-8 div:nth-child(2n) {
+  background-image: url(./chess-deck-black.jpg);
+}
+
